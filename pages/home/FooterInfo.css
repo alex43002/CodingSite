@@ -1,0 +1,36 @@
+.Referrals
+{
+    height:20px;
+    text-align: center;
+    font-family: sans-serif;
+    list-style-type:none;
+    font-size: small;
+}
+
+.Referrals div#left
+{
+    float: left;
+    justify-content: flex-start;
+}
+
+.Referrals div#right
+{
+    float:right;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-end;
+}
+
+a:link.Referrals, a:visited.Referrals
+{
+    color: black;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+a:hover.Referrals, a:active.Referrals
+{
+    background-color: rgba(128, 128, 128, 0.2);
+}
