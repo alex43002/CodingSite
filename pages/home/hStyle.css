@@ -3,10 +3,14 @@ a
   font-family: sans-serif;
 }
 
+#TopRef
+{
+  padding: 14px 25px;
+}
+
 a:link, a:visited, #loginButton
 {
     color: black;
-    padding: 14px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;

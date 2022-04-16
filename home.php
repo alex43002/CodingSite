@@ -20,13 +20,13 @@
     <div>
         <!-- Top Menu -->
         <div style = float:left;>
-	        <a href = "home">Home</a>
-	        <a href = "languages">Languages</a>
-            <a href = "career">Career Specializations</a>
-            <a href = "help">Help</a>
+	        <a id = "TopRef" href = "home">Home</a>
+	        <a id = "TopRef" href = "languages">Languages</a>
+            <a id = "TopRef" href = "career">Career Specializations</a>
+            <a id = "TopRef" href = "help">Help</a>
         </div>
         <div style = float:right>
-	        <a id = "loginButton" onclick="document.getElementById('login').style.display = 'block'" >Login Spacer</a>
+	        <a id = "TopRef" id = "loginButton" onclick="document.getElementById('login').style.display = 'block'" >Login Spacer</a>
             
             <!-- Login form -->
             <div id = "login" class = "modal">
@@ -134,6 +134,9 @@
                     Database Structures
                 </li>
             </div>
+            <p>
+                Random Text
+            </p>
         </div>
     </main>
 
