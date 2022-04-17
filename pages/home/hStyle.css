@@ -8,7 +8,7 @@ a
   padding: 14px 25px;
 }
 
-a:link, a:visited, #loginButton
+a:link, a:visited, .loginButton
 {
     color: black;
     text-align: center;

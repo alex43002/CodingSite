@@ -26,7 +26,7 @@
             <a id = "TopRef" href = "help">Help</a>
         </div>
         <div style = float:right>
-	        <a id = "TopRef" id = "loginButton" onclick="document.getElementById('login').style.display = 'block'" >Login Spacer</a>
+	        <a id = "TopRef" class = "loginButton" onclick="document.getElementById('login').style.display = 'block'" >Login Spacer</a>
             
             <!-- Login form -->
             <div id = "login" class = "modal">
@@ -156,6 +156,9 @@
             </li>
             <li>
                 <a href = "https://github.com/alex43002?tab=repositories">Github</a>
+            </li>
+            <li>
+                <a href = "https://hub.docker.com/u/ajd27">Docker</a>
             </li>
         </div>
     </footer>
