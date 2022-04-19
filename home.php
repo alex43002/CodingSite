@@ -92,13 +92,20 @@
         <!-- Main Body Content -->
         <div class = "textBody">
             <p>I welcome everyone to <i>codinghelp.org</i>
-            !! Whether you came here accidentally or not, I sincerely hope you enjoy the most out of your stay. This is a place where you can learn programming languages and concepts from my direct experience: No sugar coating concepts.</p>
+            !! Whether you came here accidentally or not, I sincerely hope you enjoy the most out of your stay. This is a place where you can learn programming languages and concepts from my direct experience: No sugar coating concepts.
+            </p>
 
-            <p>I will be explaining concepts in as much detail as I can to help fill in those annoying blank spaces in your mind: Everything from the most beginner concepts to advanced concepts. The concepts and languages will be interconnected so there will be plenty of ways all of you readers can become more aware of where these concepts can be applicable. </p>
+            <p>
+                I will be explaining concepts in as much detail as I can to help fill in those annoying blank spaces in your mind: Everything from the most beginner concepts to advanced concepts. The concepts and languages will be interconnected so there will be plenty of ways all of you readers can become more aware of where these concepts can be applicable. 
+            </p>
 
-            <p>And please be aware that I am only human, so if there is something that I have missed or even things to add onto or change then I would love it if you email me or contact me on my social media platforms.</p>
+            <p>
+                And please be aware that I am only human, so if there is something that I have missed or even things to add onto or change then I would love it if you email me or contact me on my social media platforms.
+            </p>
 
-            <p>A general list of topics that I will be going over:</p>
+            <p>
+                A general list of topics that I will be going over:
+            </p>
             <div id = "List">
                 <li>
                     What is Computer Science?
@@ -134,8 +141,16 @@
                     Database Structures
                 </li>
             </div>
+            <br>
+            <hr width = "100%">
+            <br>
+            <!-- Insert Image -->
             <p>
-                Random Text
+                As it is incredibly hard to condense such a massive subject while also giving comprehensive knowledge, the website will be split into a couple of different parts. The main parts are basic for any website you would see; which includes things like a login and multiple different pages that you are able to traverse. However there are additional parts such as built-in coding snippets that will let you test code on-the-go.
+            </p>
+            
+            <p>
+                There will also be sub-topics since it is so comprehensive, and the programming language examples used throughout will not be limited due to the nature of what computer science is and how all programming languages interconnect and the advantages and disadvantages for each.
             </p>
         </div>
     </main>
