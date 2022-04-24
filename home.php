@@ -142,7 +142,7 @@
                 </li>
             </div>
             <br>
-            <hr width = "100%">
+            <hr width = "60%">
             <br>
             <!-- Insert Image -->
             <p>
