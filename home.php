@@ -13,7 +13,6 @@
     <link rel = "stylesheet" href = "/pages/home/BodyInfo.css"/>
     <link rel = "stylesheet" href = "/pages/home/FooterInfo.css"/>
     <script type="text/javascript" src="/pages/home/LinkModule.js"></script>
-    <script type="text/javascript" src="/pages/home/ScrollController.js"></script>
 </head>
 
 <body>
@@ -83,9 +82,9 @@
 
     <!--  -->
     <div id="SidePanel" class="sidepanel" style = "width:7px; bottom:0;">
-        <div class = "PanelDoor" onclick = "sideBarFunctionality()"></div>
+        <div class = "PanelDoor" onclick = "sideBarFunctionality(); scrollLink();"></div>
         <a href = "#First">Welcome</a>
-        <a href = "#List">General Topics</a>
+        <a href = "#List" >General Topics</a>
     </div>
     <main class = "Info">
         <p class = "important" id = "First">Welcome</p>
