@@ -90,6 +90,8 @@
         <p class = "important" id = "First">Welcome</p>
         <!-- Main Body Content -->
         <div class = "textBody">
+            <br>
+
             <p>I welcome everyone to <i>codinghelp.org</i>
             !! Whether you came here accidentally or not, I sincerely hope you enjoy the most out of your stay. This is a place where you can learn programming languages and concepts from my direct experience: No sugar coating concepts.
             </p>
@@ -151,6 +153,8 @@
             <p>
                 There will also be sub-topics since it is so comprehensive, and the programming language examples used throughout will not be limited due to the nature of what computer science is and how all programming languages interconnect and the advantages and disadvantages for each.
             </p>
+            
+            <br>
         </div>
     </main>
 
