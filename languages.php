@@ -1,110 +1,64 @@
 <!DOCTYPE html>
-<html lang="en-US">
-
-<head>
-    <title>
-        Programming Languages
-    </title>
-    <meta charset="utf-8" http-equiv="Content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width = device-width, initial-scale = 1" />
-    <!-- import the webpage's stylesheet -->
-    <link rel = "stylesheet" href = "/pages/home/hStyle.css"/>
-    <link rel = "stylesheet" href = "/pages/languages/BodyInfo.css"/>
-    <link rel = "stylesheet" href = "/pages/home/FooterInfo.css"/>
-    <script type="text/javascript" src="/pages/home/LinkModule.js"></script>
-</head>
-
-<body>
-<div>
-        <!-- Top Menu -->
-        <div style = float:left;>
-	        <a id = "TopRef" href = "home">Home</a>
-	        <a id = "TopRef" href = "languages">Languages</a>
-            <a id = "TopRef" href = "career">Career Specializations</a>
-            <a id = "TopRef" href = "help">Help</a>
-        </div>
-        <div style = float:right>
-	        <a id = "TopRef" class = "loginButton" onclick="document.getElementById('login').style.display = 'block'" >Login Spacer</a>
-            
-            <!-- Login form -->
-            <div id = "login" class = "modal">
-                <form class="modal-content animate" action="/action_page.php" method="post">
-                    <div class="imgcontainer">
-                        <span onclick="document.getElementById('login').style.display='none'" class="close" title="Close Modal">
-                            &times;
-                        </span>
-                        <!-- Potential Image here -->
-                    </div>
-
-                    <div class="container">
-                        <label for="uname">
-                            <b>
-                                Username
-                            </b>
-                        </label>
-                        <input type="text" placeholder="Enter Username" name="uname" required>
-
-                        <label for="psw">
-                            <b>
-                                Password
-                            </b>
-                        </label>
-                        <input type="password" placeholder="Enter Password" name="psw" required>
-        
-                        <button type="submit">
-                            Login
-                        </button>
-                        <label>
-                            <input type="checkbox" checked="checked" name="remember"> 
-                                Remember me
-                        </label>
-                    </div>
-
-                    <div class="container" style="background-color:#f1f1f1">
-                        <button type="button" onclick="document.getElementById('login').style.display='none'" class="cancelbtn">
-                            Cancel
-                        </button>
-                        <span class="psw">     
-                            <a href="#">
-                                Forgot Password?
-                            </a>
-                        </span>
-                    </div>
-                </form>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="/pages/languages/language-main-site.css" />
+    <link rel="stylesheet" type="text/css" href="/pages/languages/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="/pages/languages/globals.css" />
+  </head>
+  <body style="margin: 0; background: #ffffff">
+    <input type="hidden" id="anPageName" name="page" value="language-main-site" />
+    <div class="container-center-horizontal">
+      <div class="language-main-site screen">
+        <div class="overlap-group1">
+          <img
+            class="line-1"
+            src="https://anima-uploads.s3.amazonaws.com/projects/6269c75d2bed8db80d8afd0c/releases/6269f7db13a5b6805ad236b5/img/line-1-1x-png@1x.png"
+          />
+          <img
+            class="line-2"
+            src="https://anima-uploads.s3.amazonaws.com/projects/6269c75d2bed8db80d8afd0c/releases/6269f7db13a5b6805ad236b5/img/line-2@1x.png"
+          />
+          <div class="footer-group border-1px-dove-gray">
+            <div class="personal"><h1 class="title arial-regular-normal-white-25px">About me</h1></div>
+            <div class="up">
+              <div class="overlap-group">
+                <div class="component-6-1"></div>
+                <div class="rectangle-130"></div>
+                <div class="arrow-up-1"></div>
+              </div>
             </div>
-            <!-- -->
+            <div class="socials">
+              <div class="email-me-instagram-git-hub-docker arial-regular-normal-white-25px">
+                Email Me&nbsp;&nbsp; Instagram&nbsp;&nbsp; GitHub&nbsp;&nbsp; Docker
+              </div>
+            </div>
+          </div>
+          <div class="main-body"></div>
+          <div class="header border-1px-dove-gray">
+            <div class="main-tabs">
+              <div class="main-tabs-1 arial-regular-normal-white-25px">
+                Home&nbsp;&nbsp; Languages&nbsp;&nbsp; Career Specializations&nbsp;&nbsp; Help
+              </div>
+            </div>
+            <div class="component-1-2"><div class="login arial-regular-normal-white-25px">Login</div></div>
+          </div>
+          <img
+            class="image-1"
+            src="https://anima-uploads.s3.amazonaws.com/projects/6269c75d2bed8db80d8afd0c/releases/626a4145cc9662191f2e9d13/img/image-1@1x.png"
+          />
+          <div class="group-1">
+            <div class="menu"></div>
+            <div class="languages">Languages</div>
+          </div>
+          <div class="group-2">
+            <div class="menu"></div>
+            <div class="concepts">Concepts</div>
+          </div>
         </div>
-        <!-- End of top menu -->
+      </div>
     </div>
-
-    <hr width = "100%">
-
-    <!-- Body -->
-
-
-    <div style = "height:1200px;"></div>
-
-    <!-- End Body-->
-    <hr width = "100%">
-    <!-- Footer -->
-    <footer class = "Referrals">
-        <!-- Bottom Disclaimer -->
-        <div id = "left">
-            <li><a href = "creator">About Me</a></li>
-        </div>
-        <div id = "right">
-            <li>
-                <a href = "mailto:codinghelp.org?subject = Questions or Feedback">Email Me</a>
-            </li>
-            <li>
-                <a href = "https://www.instagram.com/codinghelpforeveryone/">Instagram</a>
-            </li>
-            <li>
-                <a href = "https://github.com/alex43002?tab=repositories">Github</a>
-            </li>
-            <li>
-                <a href = "https://hub.docker.com/u/ajd27">Docker</a>
-            </li>
-        </div>
-    </footer>
-</body>
+  </body>
+</html>

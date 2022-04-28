@@ -1,0 +1,20 @@
+:root { 
+  --black: #000000;
+  --dove-gray: #707070;
+  --white: #ffffff;
+ 
+  --font-size-m: 25px;
+ 
+  --font-family-arial-regular: "Arial-Regular", Helvetica;
+}
+.arial-regular-normal-white-25px {
+  color: var(--white);
+  font-family: var(--font-family-arial-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.border-1px-dove-gray {
+  border: 1px solid var(--dove-gray);
+}
