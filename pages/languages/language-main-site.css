@@ -163,7 +163,7 @@
 .language-main-site .main-tabs {
   align-self: flex-end;
   display: flex;
-  height: 28px;
+  height: 65px;
   margin-bottom: -13.5px;
   margin-left: 50px;
   width: 570px;
@@ -191,7 +191,7 @@
 .language-main-site .login {
   flex: 1;
   letter-spacing: 0;
-  line-height: 25px;
+  line-height: 65px;
   margin-bottom: -3.5px;
   margin-right: -2px;
   margin-top: 1.5px;
