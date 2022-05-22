@@ -1,0 +1,351 @@
+/* screen - home */
+
+.home {
+  background-color: var(--white);
+  filter: blur(10px);
+  height: 1400px;
+  opacity: 0;
+  overflow: hidden;
+  position: relative;
+  width: 1920px;
+}
+
+.home.animate-enter {
+  animation: animate-enter-frames 0.40s ease-in 0.00s 1 normal forwards;
+  filter: blur(10px);
+  opacity: 0;
+}
+
+@keyframes animate-enter-frames {
+  from{opacity: 0;
+filter: blur(10px);
+}
+to{opacity: 1;
+filter: none;
+}
+}
+
+.home .overlap-group2 {
+  height: 1338px;
+  left: 0;
+  position: absolute;
+  top: 62px;
+  width: 1921px;
+}
+
+.home .footer-group {
+  align-items: center;
+  background-color: var(--black);
+  display: flex;
+  height: 55px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 1921px;
+  padding: 7px 39px;
+  position: absolute;
+  top: 1283px;
+}
+
+.home .about-me {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-top: 7.0px;
+  min-height: 19px;
+  min-width: 70px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.home .about-me:hover {
+  transform: scale(1.1);
+}
+
+.home .up {
+  align-items: flex-start;
+  align-self: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-left: 827px;
+  min-width: 40px;
+}
+
+.home .overlap-group {
+  height: 40px;
+  position: relative;
+  width: 40px;
+}
+
+.home .component-6-2 {
+  background-color: var(--black);
+  height: 37px;
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: 38px;
+}
+
+.home .rectangle-130 {
+  height: 40px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 40px;
+}
+
+.home .component-1 {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6269c75d2bed8db80d8afd0c/releases/626a4145cc9662191f2e9d13/img/path-10@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 16px;
+  left: 12px;
+  position: absolute;
+  top: 12px;
+  width: 16px;
+}
+
+.home .email-me {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-left: 503px;
+  margin-top: 7.0px;
+  min-height: 19px;
+  min-width: 69px;
+  text-align: right;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.home .email-me:hover {
+  transform: scale(1.1);
+}
+
+.home .instagram {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-left: 59px;
+  margin-top: 7.0px;
+  min-height: 19px;
+  min-width: 73px;
+  text-align: right;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.home .instagram:hover {
+  transform: scale(1.1);
+}
+
+.home .git-hub {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-left: 47px;
+  margin-top: 7.0px;
+  min-height: 19px;
+  min-width: 52px;
+  text-align: right;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.home .git-hub:hover {
+  transform: scale(1.1);
+}
+
+.home .docker {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-left: 47px;
+  margin-top: 7.0px;
+  min-height: 19px;
+  min-width: 53px;
+  text-align: right;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.home .docker:hover {
+  transform: scale(1.1);
+}
+
+.home .main-body {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6269c75d2bed8db80d8afd0c/releases/6289cd28adcdb6e54a3da35b/img/path-11-1x-png-1x-png@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1283px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.home .image-1 {
+  height: 989px;
+  left: 8px;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 1904px;
+}
+
+.home .line-2 {
+  height: 2px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 1282px;
+  width: 1920px;
+}
+
+.home .open-menu {
+  height: 704px;
+  left: 1px;
+  object-fit: cover;
+  position: fixed;
+  top: 80px;
+  width: 151px;
+}
+
+.home .closed-menu {
+  height: 704px;
+  left: 1px;
+  object-fit: cover;
+  position: fixed;
+  top: 80px;
+  width: 25px;
+}
+
+.home .header {
+  align-items: flex-end;
+  display: flex;
+  height: 62px;
+  left: 0;
+  min-width: 1920px;
+  position: absolute;
+  top: 0;
+}
+
+.home .overlap-group1 {
+  height: 62px;
+  margin-bottom: -0.5px;
+  position: relative;
+  width: 1920px;
+}
+
+.home .header-1 {
+  background-color: var(--black);
+  height: 62px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.home .line-1 {
+  height: 2px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 60px;
+  width: 1920px;
+}
+
+.home .help {
+  cursor: pointer;
+  left: 564px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 26px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.home .help:hover {
+  transform: scale(1.1);
+}
+
+.home .specialization {
+  cursor: pointer;
+  left: 396px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 26px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.home .specialization:hover {
+  transform: scale(1.1);
+}
+
+.home .career {
+  cursor: pointer;
+  left: 297px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 26px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.home .career:hover {
+  transform: scale(1.1);
+}
+
+.home .languages {
+  cursor: pointer;
+  left: 159px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 26px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.home .languages:hover {
+  transform: scale(1.1);
+}
+
+.home .place {
+  cursor: pointer;
+  left: 62px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 26px;
+  transition: all 0.2s ease-in;
+  white-space: nowrap;
+}
+
+.home .place:hover {
+  transform: scale(1.1);
+}
+
+.home .login {
+  cursor: pointer;
+  left: 1821px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 26px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.home .login:hover {
+  transform: scale(1.1);
+}
