@@ -7,7 +7,7 @@
   opacity: 0;
   overflow: hidden;
   position: relative;
-  width: 1920px;
+  width: 100%;
 }
 
 .home.animate-enter {
@@ -40,7 +40,7 @@ filter: none;
   height: 55px;
   justify-content: flex-end;
   left: 0;
-  min-width: 1921px;
+  min-width: 100%;
   padding: 7px 39px;
   position: absolute;
   top: 1283px;
@@ -180,7 +180,7 @@ filter: none;
   left: 0;
   position: absolute;
   top: 0;
-  width: 1920px;
+  width: 100%;
 }
 
 .home .image-1 {
@@ -189,7 +189,7 @@ filter: none;
   object-fit: cover;
   position: absolute;
   top: 7px;
-  width: 1904px;
+  width: 100%;
 }
 
 .home .line-2 {
@@ -198,7 +198,7 @@ filter: none;
   object-fit: cover;
   position: absolute;
   top: 1282px;
-  width: 1920px;
+  width: 100%;
 }
 
 .home .open-menu {
@@ -224,7 +224,7 @@ filter: none;
   display: flex;
   height: 62px;
   left: 0;
-  min-width: 1920px;
+  min-width: 100%;
   position: absolute;
   top: 0;
 }
@@ -233,7 +233,7 @@ filter: none;
   height: 62px;
   margin-bottom: -0.5px;
   position: relative;
-  width: 1920px;
+  width: 100%;
 }
 
 .home .header-1 {
@@ -242,7 +242,7 @@ filter: none;
   left: 0;
   position: absolute;
   top: 0;
-  width: 1920px;
+  width: 100%;
 }
 
 .home .line-1 {
@@ -251,7 +251,7 @@ filter: none;
   object-fit: cover;
   position: absolute;
   top: 60px;
-  width: 1920px;
+  width: 100%;
 }
 
 .home .help {

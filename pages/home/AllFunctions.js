@@ -1,4 +1,42 @@
+function tabChange(site)
+{
+    location.href = site.toLowerCase();
+}
 
+//Open and close function
+var isOpened = true;
+
+function sideBarFunctionality()
+{
+    console.log(isOpened);
+    if(isOpened)
+    {
+        document.getElementById('SidePanel').style.width = '15%';
+        isOpened = false;
+    }
+    else if(!isOpened)
+    {
+        document.getElementById('SidePanel').style.width = '7px';
+        isOpened = true;
+    }
+}
+
+function scrollLink()
+{
+    console.log("Scroll");
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => 
+        {
+            anchor.addEventListener('click', function (e) 
+            {
+                e.preventDefault();
+        
+                document.querySelector(this.getAttribute('href')).scrollIntoView(
+                {
+                    behavior: 'smooth'
+                });
+            });
+        });
+}
 
     function ShowOnScroll() 
     {
