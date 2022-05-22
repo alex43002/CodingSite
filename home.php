@@ -7,7 +7,9 @@
     </title>
     <meta charset="utf-8" http-equiv="Content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width = device-width, initial-scale = 1" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
     <!-- import the webpage's stylesheet -->
+    
     <link rel = "stylesheet" href = "/pages/home/hStyle.css"/>
     <link rel = "stylesheet" href = "/pages/home/SideBar.css"/>
     <link rel = "stylesheet" href = "/pages/home/BodyInfo.css"/>
