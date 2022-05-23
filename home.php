@@ -24,27 +24,27 @@
                             class="line-1"
                             src="https://anima-uploads.s3.amazonaws.com/projects/6269c75d2bed8db80d8afd0c/releases/627887b2b1558fc4f89153bc/img/line-1-1x-png@1x.png"
                         />
-                        <a href="https://example.com/">
+                        <a href="help">
                             <div class="help arial-regular-normal-white-16px">
                                 Help
                             </div> 
                         </a>
-                        <a href="https://example.com/">
+                        <a href="specializations">
                             <div class="specialization arial-regular-normal-white-16px">
                                 Specializations
                             </div>
                         </a>
-                        <a href="https://example.com/">
+                        <a href="career">
                             <div class="career arial-regular-normal-white-16px">
                                 Career
                             </div> 
                         </a>
-                        <a href="https://example.com/">
+                        <a href="languages">
                             <div class="languages arial-regular-normal-white-16px">
                                 Languages
                             </div> 
                         </a>
-                        <a href="https://example.com/">
+                        <a href="home">
                             <div class="place arial-regular-normal-white-16px">
                                 Home
                             </div> 
@@ -72,7 +72,7 @@
                 </div>
                 <!-- The Footer -->
                 <div class="footer-group border-1px-dove-gray">
-                    <a href="https://example.com/">
+                    <a href="https://www.linkedin.com/in/alexander-dejesus-184ba2226/">
                         <div class="about-me arial-regular-normal-white-16px">
                             About me
                         </div> 
@@ -89,22 +89,22 @@
                             </div>
                         </div>
                     </a>
-                    <a href="https://example.com/">
+                    <a href="mailto:alexdejesus336@yahoo.com?subject = Questions or Feedback">
                         <div class="email-me arial-regular-normal-white-16px">
                             Email Me
                         </div> 
                     </a>            
-                    <a href="https://example.com/">
+                    <a href="https://www.instagram.com/codinghelpforeveryone/">
                         <div class="instagram arial-regular-normal-white-16px">
                             Instagram
                         </div> 
                     </a>
-                    <a href="https://example.com/">
+                    <a href="https://github.com/alex43002?tab=repositories">
                         <div class="git-hub arial-regular-normal-white-16px">
                             GitHub
                         </div> 
                     </a>           
-                    <a href="https://example.com/">
+                    <a href="https://hub.docker.com/u/ajd27">
                         <div class="docker arial-regular-normal-white-16px">
                             Docker
                         </div> 
