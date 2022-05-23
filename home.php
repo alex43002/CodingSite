@@ -15,59 +15,6 @@
         <input type="hidden" id="anPageName" name="page" value="home" />
         <div class="container-center-horizontal">
             <div class="home animate-enter screen">
-                <div class="overlap-group2">
-                    <div class="footer-group border-1px-dove-gray">
-                        <a href="https://example.com/">
-                            <div class="about-me arial-regular-normal-white-16px">
-                                About me
-                            </div> 
-                        </a>
-                        <a href="#header" class="align-self-flex-start">
-                            <div class="up">
-                                <div class="overlap-group">
-                                    <div class="component-6-2">
-                                    </div>
-                                    <div class="rectangle-130 border-2px-sail">
-                                    </div>
-                                    <div class="component-1">
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="https://example.com/">
-                            <div class="email-me arial-regular-normal-white-16px">
-                                Email Me
-                            </div> 
-                        </a>            
-                        <a href="https://example.com/">
-                            <div class="instagram arial-regular-normal-white-16px">
-                                Instagram
-                            </div> 
-                        </a>
-                        <a href="https://example.com/">
-                            <div class="git-hub arial-regular-normal-white-16px">
-                                GitHub
-                            </div> 
-                        </a>           
-                        <a href="https://example.com/">
-                            <div class="docker arial-regular-normal-white-16px">
-                                Docker
-                            </div> 
-                        </a>
-                    </div>
-                    <div class="main-body">
-
-                    </div>
-                    <img
-                        class="image-1"
-                        src="https://anima-uploads.s3.amazonaws.com/projects/6269c75d2bed8db80d8afd0c/releases/6289cd28adcdb6e54a3da35b/img/image-1-1x-png-1x-png@1x.png"
-                    />
-                    <img
-                        class="line-2"
-                        src="https://anima-uploads.s3.amazonaws.com/projects/6269c75d2bed8db80d8afd0c/releases/627887b2b1558fc4f89153bc/img/line-1-1x-png@1x.png"
-                    />
-                </div>
-                
                 <div class="header" id="header">
                     <div class="overlap-group1">
                         <div class="header-1 border-1px-dove-gray">
@@ -109,6 +56,61 @@
                         </a>
                     </div>
                 </div>
+                <!-- Everything below the header -->
+                <div class="overlap-group2">
+                    <div class="main-body">
+
+                    </div>
+                    <img
+                        class="image-1"
+                        src="https://anima-uploads.s3.amazonaws.com/projects/6269c75d2bed8db80d8afd0c/releases/6289cd28adcdb6e54a3da35b/img/image-1-1x-png-1x-png@1x.png"
+                    />
+                    <img
+                        class="line-2"
+                        src="https://anima-uploads.s3.amazonaws.com/projects/6269c75d2bed8db80d8afd0c/releases/627887b2b1558fc4f89153bc/img/line-1-1x-png@1x.png"
+                    />
+                </div>
+                <!-- The Footer -->
+                <div class="footer-group border-1px-dove-gray">
+                    <a href="https://example.com/">
+                        <div class="about-me arial-regular-normal-white-16px">
+                            About me
+                        </div> 
+                    </a>
+                    <a href="#header" class="align-self-flex-start">
+                        <div class="up">
+                            <div class="overlap-group">
+                                <div class="component-6-2">
+                                </div>
+                                <div class="rectangle-130 border-2px-sail">
+                                </div>
+                                <div class="component-1">
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://example.com/">
+                        <div class="email-me arial-regular-normal-white-16px">
+                            Email Me
+                        </div> 
+                    </a>            
+                    <a href="https://example.com/">
+                        <div class="instagram arial-regular-normal-white-16px">
+                            Instagram
+                        </div> 
+                    </a>
+                    <a href="https://example.com/">
+                        <div class="git-hub arial-regular-normal-white-16px">
+                            GitHub
+                        </div> 
+                    </a>           
+                    <a href="https://example.com/">
+                        <div class="docker arial-regular-normal-white-16px">
+                            Docker
+                        </div> 
+                    </a>
+                </div>
+                <!-- Footer end -->    
             </div>
         </div>
         <script type="text/javascript" src="/pages/home/AllFunctions.js">

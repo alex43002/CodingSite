@@ -30,7 +30,7 @@ filter: none;
   left: 0;
   position: absolute;
   top: 62px;
-  width: 1920px;
+  width: 100%;
 }
 
 .home .footer-group {
@@ -43,7 +43,7 @@ filter: none;
   min-width: 100%;
   padding: 7px 39px;
   position: absolute;
-  top: 1283px;
+  bottom: 0px;
 }
 
 .home .about-me {
@@ -55,6 +55,7 @@ filter: none;
   min-width: 70px;
   transition: all 0.2s ease;
   white-space: nowrap;
+  left:0px;
 }
 
 .home .about-me:hover {
@@ -319,7 +320,7 @@ filter: none;
 
 .home .login {
   cursor: pointer;
-  left: 1821px;
+  right: 62px;
   letter-spacing: 0;
   line-height: 16px;
   position: absolute;
