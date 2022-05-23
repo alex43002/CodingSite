@@ -1,0 +1,383 @@
+/* screen - language-main-site */
+
+.language-main-site {
+  background-color: var(--white);
+  filter: blur(10px);
+  height: 1150px;
+  opacity: 0;
+  overflow: hidden;
+  position: relative;
+  width: 1920px;
+}
+
+.language-main-site.animate-enter {
+  animation: animate-enter-frames 0.40s ease-in 0.00s 1 normal forwards;
+  filter: blur(10px);
+  opacity: 0;
+}
+
+@keyframes animate-enter-frames {
+  from{opacity: 0;
+filter: blur(10px);
+}
+to{opacity: 1;
+filter: none;
+}
+}
+
+.language-main-site .overlap-group2 {
+  height: 1088px;
+  left: 0;
+  position: absolute;
+  top: 62px;
+  width: 1921px;
+}
+
+.language-main-site .footer-group {
+  align-items: center;
+  background-color: var(--black);
+  border: 1px solid #707070;
+  display: flex;
+  height: 55px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 1921px;
+  padding: 7.0px 39px;
+  position: absolute;
+  top: 1033px;
+}
+
+.language-main-site .about-me {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-top: 7.0px;
+  min-height: 19px;
+  min-width: 70px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.language-main-site .about-me:hover {
+  transform: scale(1.1);
+}
+
+.language-main-site .up {
+  align-items: flex-start;
+  align-self: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-left: 827px;
+  min-width: 40px;
+}
+
+.language-main-site .overlap-group {
+  height: 40px;
+  position: relative;
+  width: 40px;
+}
+
+.language-main-site .component-6-1 {
+  background-color: var(--black);
+  height: 37px;
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: 38px;
+}
+
+.language-main-site .rectangle-130 {
+  border: 2px solid #bce0fd;
+  height: 40px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 40px;
+}
+
+.language-main-site .component-1 {
+  background-image: url(../img/path-10@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 16px;
+  left: 12px;
+  position: absolute;
+  top: 12px;
+  width: 16px;
+}
+
+.language-main-site .email-me {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-left: 503px;
+  margin-top: 7.0px;
+  min-height: 19px;
+  min-width: 69px;
+  text-align: right;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.language-main-site .email-me:hover {
+  transform: scale(1.1);
+}
+
+.language-main-site .instagram {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-left: 59px;
+  margin-top: 7.0px;
+  min-height: 19px;
+  min-width: 73px;
+  text-align: right;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.language-main-site .instagram:hover {
+  transform: scale(1.1);
+}
+
+.language-main-site .git-hub {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-left: 47px;
+  margin-top: 7.0px;
+  min-height: 19px;
+  min-width: 52px;
+  text-align: right;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.language-main-site .git-hub:hover {
+  transform: scale(1.1);
+}
+
+.language-main-site .docker {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-left: 47px;
+  margin-top: 7.0px;
+  min-height: 19px;
+  min-width: 53px;
+  text-align: right;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.language-main-site .docker:hover {
+  transform: scale(1.1);
+}
+
+.language-main-site .main-body {
+  background-image: url(../img/path-11-1x-png@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1033px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.language-main-site .image-1 {
+  height: 989px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 12px;
+  width: 1905px;
+}
+
+.language-main-site .language-list-component {
+  align-items: flex-end;
+  background-color: #7fc4fd;
+  display: flex;
+  height: 55px;
+  left: 488px;
+  min-width: 315px;
+  padding: 12.5px 13px;
+  position: absolute;
+  top: 232px;
+}
+
+.language-main-site .menu {
+  background-image: url(../img/menu-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 28px;
+  margin-bottom: 0.5px;
+  width: 25px;
+}
+
+.language-main-site .languages {
+  color: var(--black);
+  font-family: var(--font-family-arial-regular);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-left: 80px;
+  min-height: 19px;
+  min-width: 82px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.language-main-site .line-2 {
+  height: 2px;
+  left: 1px;
+  object-fit: cover;
+  position: absolute;
+  top: 1032px;
+  width: 1920px;
+}
+
+.language-main-site .concept-list-component {
+  align-items: flex-end;
+  background-color: #7fc4fd;
+  display: flex;
+  height: 55px;
+  left: 1114px;
+  min-width: 315px;
+  padding: 12.5px 13px;
+  position: absolute;
+  top: 232px;
+}
+
+.language-main-site .header {
+  align-items: flex-end;
+  display: flex;
+  height: 62px;
+  left: 0;
+  min-width: 1920px;
+  position: absolute;
+  top: 0;
+}
+
+.language-main-site .overlap-group1 {
+  height: 62px;
+  margin-bottom: -0.5px;
+  position: relative;
+  width: 1920px;
+}
+
+.language-main-site .header-1 {
+  background-color: var(--black);
+  border: 1px solid #707070;
+  height: 62px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.language-main-site .line-1 {
+  height: 2px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 60px;
+  width: 1920px;
+}
+
+.language-main-site .help {
+  cursor: pointer;
+  left: 564px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 26px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.language-main-site .help:hover {
+  transform: scale(1.1);
+}
+
+.language-main-site .specialization {
+  cursor: pointer;
+  left: 396px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 26px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.language-main-site .specialization:hover {
+  transform: scale(1.1);
+}
+
+.language-main-site .career {
+  cursor: pointer;
+  left: 297px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 26px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.language-main-site .career:hover {
+  transform: scale(1.1);
+}
+
+.language-main-site .languages-1 {
+  cursor: pointer;
+  left: 159px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 26px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.language-main-site .languages-1:hover {
+  transform: scale(1.1);
+}
+
+.language-main-site .place {
+  cursor: pointer;
+  left: 62px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 26px;
+  transition: all 0.2s ease-in;
+  white-space: nowrap;
+}
+
+.language-main-site .place:hover {
+  transform: scale(1.1);
+}
+
+.language-main-site .login {
+  cursor: pointer;
+  left: 1821px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 26px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.language-main-site .login:hover {
+  transform: scale(1.1);
+}

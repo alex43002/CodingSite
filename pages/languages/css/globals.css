@@ -1,11 +1,14 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/62699a7386c08cb561e0b1ee.62699a76cfb11f1a6901849a.YG88d4y.hcp.png");
 
 @font-face {
   font-family: "Arial-Regular";
   font-style: normal;
   font-weight: 400;
-  src: url("/pages/languages/ArialMTBlack.eot") format("truetype");
+  src: url("../fonts/Arial.ttf") format("truetype");
 }
+
 
 .screen a {
   display: contents;
@@ -31,6 +34,10 @@
 .container-center-horizontal > * {
   flex-shrink: 0;
   pointer-events: auto;
+}
+
+.align-self-flex-start {
+  align-self: flex-start;
 }
 
 * {
