@@ -1,0 +1,25 @@
+:root { 
+  --black: #000000;
+  --dove-gray: #707070;
+  --sail: #bce0fd;
+  --white: #ffffff;
+ 
+  --font-size-m: 16px;
+ 
+  --font-family-arial-regular: "Arial-Regular", Helvetica;
+}
+.arial-regular-normal-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-arial-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.border-1px-dove-gray {
+  border: 1px solid var(--dove-gray);
+}
+
+.border-2px-sail {
+  border: 2px solid var(--sail);
+}
